@@ -1,0 +1,253 @@
+body {
+    background: #1D1E22;
+}
+
+/**********header***********/
+.header {
+    max-width: 1440px;
+    width: 100%;
+    height: 115px;
+}
+
+.header_conteiner {
+    max-width: 1196.12px;
+    width: 100%;
+    height: 51px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo { 
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo > a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+.header_inner {
+    width: 305px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_menu {
+    width: 82px;
+    height: 18px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu_download {
+    width: 187px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#menu_download:hover {
+    background-color: #42444d;
+}
+
+.download_cv > a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+/********section************/
+
+.section {
+    max-width: 1196px;
+    width: 100%;
+    height: 557px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/******** title **********/
+
+.section_title {
+    width: 480px;
+    height: 464px;
+}
+
+.section_title > p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.section_title > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.section_text {
+    width: 480px;
+    height: 262px;
+    margin-top: 20px;
+}
+
+.section_text > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 53px;
+    color: #FF8E5E;
+}
+
+.section_text > p {
+    margin-top: 20px;
+    width: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+input[type=button] {
+    width: 215px;
+    height: 59px;
+    margin-top: 30px;
+    background: #FF8E5E;
+    border-radius: 60px;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    transition: .3s;
+}
+
+input[type=button]:hover {
+    background-color: #f6ae8f;
+}
+
+/*******profile***********/
+
+
+.section_profile {
+    width: 465px;
+    height: 414px;
+}
+
+.profile_img > img {
+    width: 465px;
+    height: 414px;
+    border-radius: 30px;
+}
+
+.profile_skill {
+    max-width: 1471.36px;
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.profile_skill > a {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #1D1E22;
+}
+
+.profile_skill > a:hover {
+    color: #414f80;
+}
+
+/******* footer *********/
+
+.footer {
+    max-width: 1439px;
+    width: 100%;
+    height: 394px;
+    margin: 130px auto;
+    padding-top: 100px;
+    background: #19191D;
+}
+
+
+.footer_content {
+    width: 553px;
+    height: 194px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.footer_content > h1 {
+    padding-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 53px;
+    text-align: center;
+    color: #FF8E5E;
+}
+
+input[type=submit] {
+    width: 215px;
+    height: 59px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border-radius: 60px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D1E22;
+    cursor: pointer;
+    transition: .3s;
+}
+
+input[type=submit]:hover {
+    background-color: #FF8E5E;
+}

@@ -1,0 +1,53 @@
+@media(max-width:1300px){
+    body{
+        width: 95%;
+    }
+}
+
+
+@media(max-width:1170px){
+    .header {
+        width: 95%;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width:1000px) {
+    .header_conteiner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;  
+    }
+}
+
+@media(max-width:800px) {
+    .header_inner {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:800px) {
+    #menu_download{
+        margin-top: 10px;
+    
+    }
+}
+
+@media(max-width:700px) {
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media(max-width:800px) {
+    .profile_skill {
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+        margin-top: 260px;
+    }
+}
